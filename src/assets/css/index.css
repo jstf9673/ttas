@@ -1,0 +1,128 @@
+@charset 'utf-8';
+
+@font-face {
+  font-family: 'SourceHanSansCN';
+  src: url("../fonts/SourceHanSansCN-Regular.otf");
+  /* src:
+    url('../fonts/SourceHanSansCN-Regular.otf?#font-spider') format('embedded-opentype'),
+    url('../fonts/SourceHanSansCN-Regular.woff2') format('woff2'),
+    url('../fonts/SourceHanSansCN-Regular.woff') format('woff'), */
+    /* url('../fonts/SourceHanSansCN-Regular.ttf') format('truetype'), */
+    /* url('../fonts/SourceHanSansCN-Regular.svg') format('svg'); */
+  /* fonts-weight: normal;
+  fonts-style: normal; */
+}
+
+#hs {
+  font-family: "SourceHanSansCN";
+}
+.van-icon-zh-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/zh-icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.van-icon-en-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/en-icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.van-icon-ja-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/ja-icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.van-icon-view-qukuai-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/view-qukuai-icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.van-icon-white-paper-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/white-paper-icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.van-icon-twiter-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/twiter-icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.van-icon-dianbao-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/dianbao-icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.van-icon-aoyun-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/aoyun-icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.van-icon-github-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/github-icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.van-icon-person-icon {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-image: url(../img/person-icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.van-icon-gift-icon {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-image: url(../img/gift-icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.van-popover__action--with-icon .van-popover__action-text {
+  font-size: 24px;
+  color: #4A5267;
+}
+.van-popover__action--with-icon .van-popover__action-text::after {
+  display: none;
+}
+.van-popover__action .van-popover-link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}

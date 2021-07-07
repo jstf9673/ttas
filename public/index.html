@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+
+  <style>
+    /* * {
+      margin: 0;
+      padding: 0;
+    } */
+    html{
+      background-color: #f5f5f7;
+      /* background: linear-gradient(180deg, #000, #003); */
+      height: 100%;
+      width: 100%;
+    }
+    @media screen and (min-width: 750px) {
+      #app {
+        max-width: 750px;
+        margin: 0 auto;
+      }
+      #app .header-container, #app .footer-wrap {
+        max-width: 750px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+      #app .transmit-wrap .modal-wrapper .address-wrap,
+      #app .transmit-wrap .modal-wrapper .email-wrap {
+        max-width: 750px;
+      }
+    }
+  </style>
+  
+  <body >
+    <div id="app" class="hs"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  
+</html>
+
